@@ -1,0 +1,57 @@
+Guião 4
+O objetivo desta aula é desenvolver pequenos programas, muito simples, que vão servir para introduzir alguns dos elementos básicos do paradigma imperativo: comandos alternativos e repetitivos (if e for).
+
+Nos exercícios que lhe propomos de seguida, o programa a desenvolver deve ter a seguinte forma:
+
+public class NomeDaClasse {
+
+    public static void main(String[] args) {
+      //codigo que implementa determinada tarefa
+    }
+  }
+Notas:
+
+Não se esqueça que o nome do ficheiro onde o programa está escrito tem de coincidir com o nome da classe e a extensão do ficheiro tem de ser .java
+Quando escrever o seu programa, use indentação para uma boa legibilidade do seu código e comentários sempre que for adequado.
+Recorde que, para construir uma sequência de caracteres a imprimir no ecrã com o System.out.println, podemos usar o operador + para concatenar valores de tipos primitivos com sequências de caracteres.
+Exercício 1
+
+1. Escreva um programa que:
+
+declara duas variáveis com o tipo double representando um peso (em kg) e uma altura (em metros);
+inicializa estas variáveis com o seu peso e altura;
+imprime no ecrã o seu IMC (índice de massa corporal), o que se calcula dividindo o peso pelo quadrado da altura.
+Compile e execute o seu programa, corrigindo eventuais erros.
+
+2. Acrescente ao seu programa uma mensagem que ajuda a interpretar o valor do IMC obtido:
+
+IMC menor do que 15              muito abaixo do peso normal
+IMC no intervalo [15, 18.5[     abaixo do peso normal
+IMC no intervalo [18.5, 25[     peso normal
+IMC no intervalo [25, 30[        acima do peso normal
+IMC no intervalo [30, 40[        obeso
+IMC maior ou igual a 40          muito obeso
+Exercício 2
+
+Imagine que a avaliacão de uma determinada disciplina consiste em fazer 3 testes, sendo que a nota final é dada pela média dos dois melhores. Escreva um programa que:
+
+declare 3 variáveis com o tipo int representando as notas dos 3 testes (entre 0 e 20)
+inicialize estas variáveis com valores apropriados
+imprima no ecrã a nota final (inteiro entre 0 e 20).
+Compile e execute o seu programa, corrigindo eventuais erros.
+
+Exercício 3
+
+Escreva um programa que declara uma variável n de tipo int e inicialize-a com um valor à sua escolha. De seguida, acrescente instruções para imprimir no ecrã:
+
+uma linha com os n primeiros múltiplos de 3, separados por espaços;
+uma linha com os n primeiros números ímpares, separados por espaços;
+uma linha com as n primeiras potências de 10, separadas por espaços.
+Exercício 4
+
+Escreva um programa que declara uma variável n de tipo int e inicialize-a com um valor à sua escolha. Calcule, possivelmente utilizando variáveis auxiliares, e imprima no ecrã
+
+o factorial de n
+todos os divisores de n
+o número de divisores de n
+a soma dos divisores de n
