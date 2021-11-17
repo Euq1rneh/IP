@@ -107,7 +107,15 @@ public class Serie4 {
         String letters = "ABDEFGHIJKLMNOPQRSTUV";
         Random num = new Random();
 
-        matricula.append(num.nextInt(10) + "" + num.nextInt(10) + "-" + letters.charAt(num.nextInt(10))+ letters.charAt(num.nextInt(10)) + "-" + num.nextInt(10) + num.nextInt(10));
+        matricula.append(num.nextInt(10));
+        matricula.append(num.nextInt(10));
+        matricula.append("-");
+        matricula.append(letters.charAt(num.nextInt(10)));
+        matricula.append(letters.charAt(num.nextInt(10)));
+        matricula.append("-");
+        matricula.append(num.nextInt(10));
+        matricula.append(num.nextInt(10));
+        //matricula.append(num.nextInt(10) + "" + num.nextInt(10) + "-" + letters.charAt(num.nextInt(10))+ letters.charAt(num.nextInt(10)) + "-" + num.nextInt(10) + num.nextInt(10));
 
         return matricula.toString();
     }
